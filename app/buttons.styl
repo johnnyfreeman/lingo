@@ -1,0 +1,87 @@
+/* BUTTONS */
+
+/* General button style (reset) */
+.btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  box-shadow: 0 2px #e4e9ed;
+  text-decoration: none;
+  
+  
+  
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  color: #575757;
+  text-shadow: 0 1px 0px #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.btn:hover {
+  box-shadow: 0 1px #e4e9ed;
+  top: 1px;
+}
+
+.btn:active {
+  box-shadow: 0 0 #e4e9ed;
+  top: 2px;
+}
+
+/* Success */
+.btn-success {
+  background-color: #92CF5C;
+  border-color: #80C740;
+  box-shadow: 0 2px 0 #80C740;
+  color: #fff;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.2);
+}
+.btn-success:hover  { box-shadow: 0 1px #80C740; }
+.btn-success:active { box-shadow: 0 0 #80C740; }
+
+/* Danger */
+.btn-danger {
+  background-color: #FB6B5B;
+  border-color: #FB5B4A;
+  box-shadow: 0 2px 0 #FB5B4A;
+  color: #fff;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.2);
+}
+.btn-danger:hover  { box-shadow: 0 1px #FB5B4A; }
+.btn-danger:active { box-shadow: 0 0 #FB5B4A; }
+
+/* Info */
+.btn-info {
+  background-color: #5DCFF3;
+  border-color: #3CC5F1;
+  box-shadow: 0 2px 0 #3CC5F1;
+  color: #fff;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.2);
+}
+.btn-info:hover  { box-shadow: 0 1px #3CC5F1; }
+.btn-info:active { box-shadow: 0 0 #3CC5F1; }
+
+/* Dark */
+.btn-dark {
+  background-color: #545E70;
+  border-color: #3D4452;
+  box-shadow: 0 2px 0 #3D4452;
+  color: #fff;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.2);
+}
+.btn-dark:hover  { box-shadow: 0 1px #3D4452; }
+.btn-dark:active { box-shadow: 0 0 #3D4452; }
+
+.btn-disabled, .btn-disabled:hover {
+  opacity: .5;
+}

@@ -1,0 +1,113 @@
+/* Phrases */
+#phrases {
+  margin: 0;
+  padding-left: 0;
+}
+
+#phrases li label {
+  background-color: #fff;
+  border-bottom: 1px solid #ebeff6;
+  border-top: 1px solid #ebeff6;
+  cursor: default;
+  display: block;
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 21px 20px;
+}
+
+#phrases li:nth-child(2n+2) label {
+  background-color: #F9FAFC;
+}
+
+#phrases li.active label {
+  position: relative;
+  z-index: 1;
+}
+
+#phrases .title
+  font-weight bold
+  padding-right 10px
+
+#phrases 
+  .text 
+    opacity .5
+
+  .truncate
+    color 
+
+/* hide the top border of the first
+   and the bottom border of the last */
+#phrases li:first-child label { border-top: none; }
+
+/* hover state */
+#phrases li:hover label {
+  background-color: #F1F5F9;
+}
+
+#phrases .checkbox 
+  float: left;
+  font-size: 18px;
+  padding: 7px 7px 5px 9px;
+  margin: -7px 15px -7px 0px;
+  background-color: #DDE2EE;
+  border-radius: 23px;
+  color: white;
+
+
+
+#phrases li.active .checkbox {
+  background-color: #5DCFF3;
+}
+
+#phrases.bulk-delete-mode .active {
+  border-color: #FB5B4A;
+}
+
+#phrases .actions * {
+  color: #bdc3c7;
+  margin-right: 5px;
+}
+
+#phrases .actions a {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+#phrases li:hover .actions a {
+  color: #7f8c8d;
+  text-decoration: underline;
+}
+
+#phrases .active .date,
+#phrases .active:hover .date,
+#phrases .active .checkbox,
+#phrases .active:hover .checkbox,
+#phrases .active .actions *,
+#phrases .active:hover .actions * {
+  color: #fff;
+}
+
+#phrases .empty,
+#phrases .empty:hover {
+  background-color: transparent;
+  border: none;
+  color: #BBC5DD;
+  cursor: default;
+  padding: 200px 15px;
+  text-align: center;
+}
+
+#phrases .tag {
+  border-radius: 4px;
+  padding: 2px 2px;
+  margin: -2px 0;
+}
+
+#phrases .tag.active {
+  background-color: #F2F4F8;
+}
+
+#phrases .active .tag.active {
+  background-color: transparent;
+}

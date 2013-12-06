@@ -1,0 +1,5 @@
+<div class="listingInfo">
+  {{#if activeTags}}<a class="clear" href="#"><i class="fa fa-times-circle"></i></a>{{/if}}
+
+  Listing all phrases{{#if activeTags}} tagged with {{#each activeTags}}<span class="tagContainer"><span class="and"> and </span>{{> tagSpan}}</span>{{/each}}{{/if}}.
+</div>

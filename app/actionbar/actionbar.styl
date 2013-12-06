@@ -1,0 +1,109 @@
+#left .action-bar {
+  background-color: #4C5566;
+  color: #fff;
+}
+
+.action-bar {
+  background-color: #F2F4F8;
+  padding: 15px 15px;
+
+  /* place action-bar above phrases AND infobar ** DO NOT REMOVE */
+  position: relative; 
+  z-index: 2;
+}
+
+/* SEARCH FIELD */
+.search-field {
+  position: relative;
+  display: inline-block;
+}
+
+.search-field .fa-search {
+  color: #919599;
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  z-index: 1;
+}
+
+input.search {
+  background-color: #fff;
+  border-radius: 4px;
+  position:relative;
+  border: 1px solid #5DCFF3;
+  color: #545454;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 12px 7px 30px;
+  width: 764px;
+}
+
+input.search {
+  border-color: #E4E8F2;
+  color: #919599;
+  font-weight: normal;
+}
+
+input.search:hover {
+  border-color: #DDE2EE;
+}
+
+
+/* ------- ADD PHRASE FORM --------- */
+#addPhraseForm {
+  /* popup position */
+  top: 64px;
+  left: 15px;
+}
+
+/* padding */
+#addPhraseForm input.title,
+#addPhraseForm input.tags,
+#addPhraseForm textarea,
+#addPhraseForm .popup-title,
+#addPhraseForm .btn-submit {
+  display: block;
+  padding: 10px 15px;
+  border: 0;
+  width: 564px;
+}
+
+#addPhraseForm textarea {
+  height: 355px;
+}
+
+#addPhraseForm a:hover .fa-user,
+#addPhraseForm a:hover .fa-calendar,
+#addPhraseForm a:hover .fa-align-justify,
+#addPhraseForm a:hover .fa-font {
+  color: #fff;
+}
+
+#addPhraseForm .btn {
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+
+/* normalize selectize */
+#addPhraseForm .selectize-input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 10px 15px;
+  border: none;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#addPhraseForm .selectize-input.focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#addPhraseForm .selectize-input input {
+  font-family: inherit;
+  font-size: 100%;
+}

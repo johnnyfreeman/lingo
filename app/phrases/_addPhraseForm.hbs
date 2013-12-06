@@ -1,0 +1,17 @@
+<div class="popup-title">
+    <strong>Add a new phrase&hellip;</strong>
+  {{> bulkInsertSetting}}
+</div>
+<input class="id" name="id" type="hidden" value="{{id}}">
+<div class="popup-section no-padding">
+  <input class="title" name="title" placeholder="Title&hellip;" type="text" value="{{title}}">
+</div>
+<div class="popup-section no-padding">
+  <input class="tags" name="tags" placeholder="Tags&hellip;" type="text" value="{{tags}}">
+</div>
+<div class="popup-section no-padding">
+  <textarea name="phrase" placeholder="Body&hellip;">{{text}}</textarea>
+</div>
+<div>
+  <button class="btn btn-success pull-right btn-submit" type="submit"><i class="fa fa-ok"></i> Save Phrase</button>
+</div>

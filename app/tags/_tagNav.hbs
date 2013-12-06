@@ -1,0 +1,13 @@
+<ul id="tags">
+  {{#if loading}}
+    <li class="empty">Loading&hellip;</li>
+  {{else}}
+    {{#each tags}}
+      <li>
+        {{> tagLinkWithCount}}
+      </li>
+    {{else}}
+      <li class="empty">No Tags :(</li>
+    {{/each}}
+  {{/if}}
+</ul>
